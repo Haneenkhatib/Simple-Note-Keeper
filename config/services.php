@@ -43,5 +43,10 @@ return [
             'tolerance' => env('STRIPE_WEBHOOK_TOLERANCE', 300),
         ],
     ],
+    'facebook' => [
+        'client_id' => '459163741591184',
+        'client_secret' => '43cae5c27d7dfe7e33b1befc7dd05377',
+        'redirect' => 'http://127.0.0.1:8000/auth/redirect/facebook',
+    ],
 
 ];

@@ -17,6 +17,7 @@ class CreateNotesTable extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->text('content');
+            $table->string('note_image');
             $table->timestamps();
             $table->softDeletes();
         });
